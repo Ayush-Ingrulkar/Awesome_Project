@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="#">
+                <Link className="navbar-brand" to="/">
                     Ayush
                 </Link>
                 <button

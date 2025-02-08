@@ -4,6 +4,33 @@ body {
     padding-top: 70px; /* Adjust this value to match the height of your navbar */
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 .transparent {
     background-color: rgba(52, 58, 64, 0.8); /* Semi-transparent grey */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
