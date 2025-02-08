@@ -11,13 +11,6 @@ import Restrictions from './Components/Restrictions';
 import Feed from './Components/Feed';
 import HelpPage from './HelpPage';
 import Dashboard from './Components/Dashboard';
-// import LoginForm from './Components/LoginForm';
-
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-// import Home from './components/Home';
-// import About from './components/About';
-// import Contact from './components/Contact';
 
 const App = () => {
     // <Router basename='/React_Project3'></Router>
@@ -67,20 +60,7 @@ const App = () => {
         }
     ])
     return (
-        
-        // <Router>
-
-
-
-        //     <div className='App'>
-        //         <Navbar searchBar={true}/>
-        //             {/* <Routes>
-        //         <Route path="/" element={<HomePage/>}/>
-        //         <Route path="/login" element={<LoginForm/>}/>
-        //         </Routes> */}
-
-        //     </div>
-        //     </Router>
+       
 
         <>
         <UserProvider>

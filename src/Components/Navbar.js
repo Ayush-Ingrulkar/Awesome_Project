@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg transparent fixed-top">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="#">
                     Ayush
-                </a>
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -42,7 +42,7 @@ export default function Navbar() {
                             >
                                 More
                             </a>
-                            <ul className="dropdown-menu transparent-dropdown">
+                            <ul className="dropdown-menu">
                                 <li>
                                     <Link to="/restrict" className="dropdown-item">
                                         Restrictions
@@ -80,7 +80,7 @@ export default function Navbar() {
                             placeholder="Search"
                             aria-label="Search"
                         />
-                        <button className="btn btn-attractive" type="submit">
+                        <button className="btn btn-primary" type="submit">
                             Search
                         </button>
                     </form>
