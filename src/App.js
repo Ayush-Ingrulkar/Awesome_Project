@@ -18,7 +18,7 @@ const App = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('https://localhost:5500');
+                const res = await fetch('https://localhost:3000');
                 const data = await res.json();
                 console.log(data);
             } catch (error) {
