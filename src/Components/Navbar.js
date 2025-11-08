@@ -33,15 +33,15 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <a
-                                className="nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
+                            <button
+                                className="nav-link dropdown-toggle btn btn-link"
+                                type="button"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
+                                style={{ textDecoration: 'none' }}
                             >
                                 More
-                            </a>
+                            </button>
                             <ul className="dropdown-menu">
                                 <li>
                                     <Link to="/restrict" className="dropdown-item">

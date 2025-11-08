@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react"; 
 import "./HomePage.css";
 import { Link } from "react-router-dom";
@@ -10,7 +9,6 @@ const HomePage = () => {
   useEffect(() => { AOS.init({ duration: 2000 }); }, []);
   return (
     <div className="home-container">
-      {/* Hero Section */}
       <div className="hero-section">
         <div className="text-content">
           <h1 className="animated-text">
@@ -21,19 +19,24 @@ const HomePage = () => {
           As a full-stack web developer, I thrive on bringing ideas to life through interactive and engaging web applications. I'm passionate about creating seamless user experiences.. Attired with a variety of tools and technologies and keen to
             learn new ones.
           </p>
-            
+              
           <div className="contact-icons animated-text">
             <i className="fas fa-phone"></i>
             <i className="fas fa-envelope"></i>
           </div>
         </div>
       </div>
-{/* Resume Button Section */}
- <div className="resume-section" data-aos="fade-up"> 
-<h2 className="resume-highlight">Here's My <span className="highlight">RESUME</span></h2>
-  <a href="C:\Users\Ayush\Desktop\Ayush Ingrulkar Resume.pdf" target="_blank" className="btn resume-btn"> View Resume </a> 
-  </div>
-      {/* Login Section */}
+      <div className="resume-section" data-aos="fade-up"> 
+        <h2 className="resume-highlight">Here's My <span className="highlight">RESUME</span></h2>
+        <a 
+          href="/Ayush_Resume_short.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn resume-btn"
+        > 
+          View Resume 
+        </a> 
+      </div>
       <div className="login-section"  data-aos="fade-up">
         <h4 className="login-text">Please Login to my page</h4>
         <Link to="/login">
@@ -41,7 +44,7 @@ const HomePage = () => {
         </Link>
       </div>
 
-      {/* Skills Section */}
+
       <div className="skills-section" data-aos="fade-up">
         <h2>SKILLS</h2>
         <div className="skills-grid">
@@ -72,21 +75,19 @@ const HomePage = () => {
         </div>
       </div>
 
-
-      {/* About Section */}
       <div className="about-section" data-aos="fade-up"> 
         <h3 className="about-title">Everything About Me</h3>
          <p className="about-text"> I am a dedicated and passionate developer with expertise in front-end development,
-           focusing on creating dynamic and responsive web applications. I have experience working with various technologies, 
-           including JavaScript, React and more. My professional journey has been marked by continuous learning and 
-           adapting to new challenges in the tech industry. Whether collaborating with teams or working independently, I
-            strive to deliver high-quality work that meets and exceeds expectations. On the back end, I'm proficient in building robust and scalable server-side logic using technologies like 
-             Node.js,MongoDB,MySql .This includes designing databases, implementing APIs, and ensuring application security and performance. 
-             I believe that a strong back end is crucial for delivering a truly interactive and responsive user experience. 
-             My full-stack expertise allows me to handle all aspects of development, from designing intuitive user interfaces to building robust back-end systems.
-             This comprehensive skill set enables me to create dynamic web experiences that are not only visually appealing but also performant and scalable, providing users with a seamless and interactive journey.</p> </div>
+            focusing on creating dynamic and responsive web applications. I have experience working with various technologies, 
+            including JavaScript, React and more. My professional journey has been marked by continuous learning and 
+            adapting to new challenges in the tech industry. Whether collaborating with teams or working independently, I
+             strive to deliver high-quality work that meets and exceeds expectations. On the back end, I'm proficient in building robust and scalable server-side logic using technologies like 
+              Node.js,MongoDB,MySql .This includes designing databases, implementing APIs, and ensuring application security and performance. 
+              I believe that a strong back end is crucial for delivering a truly interactive and responsive user experience. 
+              My full-stack expertise allows me to handle all aspects of development, from designing intuitive user interfaces to building robust back-end systems.
+              This comprehensive skill set enables me to create dynamic web experiences that are not only visually appealing but also performant and scalable, providing users with a seamless and interactive journey.</p> </div>
 
-      {/* Social Media Buttons Section */}
+
       <div className="social-buttons" data-aos="fade-up">
         <a
           href="https://github.com/Ayush-Ingrulkar/React_Project2"
